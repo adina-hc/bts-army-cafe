@@ -2,17 +2,32 @@
     margin:0;
     padding:0;
 }
+header {
+    background-color: rgb(172, 136, 206);
+    min-height:3rem;
+}
+.app-desc .menu-list {
+    margin: 0.2rem;
+    padding: 0.2rem;
+    ;
+}
+.menu-list li {
+    width: 8rem;
+    height: min-content;
+    background-color: rgb(165, 116, 189);
+    color: white;
+    text-align: center;
+
+}
 
 body {
     background-color: rgb(245, 233, 221);
     background-image: url(../../images/bangtan.png);
 }
-header {
-    background-color: rgba(172, 136, 206, 0.892);
-}
+
 
 .navbar-brand a:hover, .navbar-brand a:focus .navbar-brand a:visited {
-    text-decoration: none;
+    text-decoration: purple;
     
 }
 
@@ -37,21 +52,66 @@ header {
 }
 .menu-list {
     display:inline-flex;
-    padding:0.2em;
-    margin: 0.2em;
-
+    padding:0.1em;
+    margin: 0.1em;  
     
-   
-    
-
 }
 .menu-items{
-    padding:1em;
-    margin: 1em;
+    padding:0.3em;
+    margin: 0.3em;
     list-style-type: none;
     border: blueviolet;
     border-width: 1em;
     list-style-type: none;
     width: max-content;
     
+}
+
+/* Biography Section */
+.bio-sec {
+    background-color: rgb(144, 159, 242);
+
+}
+.bio-title {
+    text-align: center;
+
+}
+/* Sections General Style */ 
+.api-sec .bio-sec{
+    opacity: 95%;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+/*Table Style */
+.api-sec {
+background-color: rgb(217, 184, 245);
+}
+.table {
+    border: rgb(70, 7, 97);
+
+}
+.table-title {
+    text-align: center;
+
+}
+.table-row {
+    text-align: center;
+    text-shadow: purple;
+}
+
+.col-header {
+    color: blue;
+}
+
+col {
+    background-color: rgba(228, 228, 199, 0.379);
+}
+
+.api-result {
+    color: red;
+}
+
+.center-data {
+    text-align: center;
 }
