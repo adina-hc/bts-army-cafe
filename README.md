@@ -1,4 +1,6 @@
-# Restaurant App
+# BTS Fan Website
+*** UNDER CONSTRUCTION ***
+
 Page designed for a generic BTS Fan Site
 
 ## Acceptance Criteria
