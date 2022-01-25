@@ -9,7 +9,9 @@ A BTS fan can find useful tips and information about the group:
 - Sections to display information
     * Bio
     * Charts
-    * Trivia
+    * News
+    * Trivia, etc
+
 - APIs to gather data regarding ratings, ranking, etc.
 
 
